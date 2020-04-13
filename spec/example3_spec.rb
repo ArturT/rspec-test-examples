@@ -1,9 +1,9 @@
-describe 'Example 1' do
-  it 'A1' do
+describe 'Example 3' do
+  it 'A3' do
     expect(true).to be true
   end
 
-  it 'B1' do
+  it 'B3' do
     expect(true).to be true
   end
 end
