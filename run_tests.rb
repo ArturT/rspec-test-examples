@@ -9,6 +9,9 @@ def start_runner(cli_args)
   RSpec::Core::Runner.new(options).run($stderr, $stdout)
 
   RSpec.clear_examples
+
+  # this reset all and makes B1 run
+  #RSpec.reset
 end
 
 
